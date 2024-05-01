@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "server": "nodemon server"
+    "start": "node server.js", 
+    "server": "nodemon server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -13,5 +14,8 @@
     "node-cache": "^5.1.2",
     "nodemon": "^2.0.20",
     "openai": "^3.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
